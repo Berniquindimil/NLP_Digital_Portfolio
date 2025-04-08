@@ -1,6 +1,7 @@
 import lmstudio as lms
 import streamlit as st
 import numpy as np
+import unsloth
 
 st.title("Emotional chatbot")
 
@@ -31,4 +32,3 @@ if prompt := st.chat_input("What is up?"):
         st.markdown(response)
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
-    
