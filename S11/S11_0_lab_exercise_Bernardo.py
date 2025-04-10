@@ -1,7 +1,6 @@
 import lmstudio as lms
 import streamlit as st
 import numpy as np
-import unsloth
 
 st.title("Emotional chatbot")
 
